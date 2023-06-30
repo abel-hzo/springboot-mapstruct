@@ -8,7 +8,7 @@ import java.util.Set;
  * @project: springboot-mapstruct
  * @file: CategoryDTO.java
  * @location: México, Ecatepec, Edo. de México.
- * @date: Miércoles 28Junio 2023, 22:47:35.
+ * @date: Miércoles 28 Junio 2023, 22:47:35.
  * @description: El presente archivo CategoryDTO.java fue creado por Abel HZO.
  */
 public class CategoryDTO {
