@@ -1,0 +1,55 @@
+DELETE FROM PRODUCT, CATEGORY, CATEGORY_PRODUCT;
+
+insert into PRODUCT (id_product, product, creation_date, price) values (1, 'Pesto - Primerba, Paste', '2022-10-17', 7271.42);
+insert into PRODUCT (id_product, product, creation_date, price) values (2, 'Water - Evian 355 Ml', '2023-01-10', 5470.35);
+insert into PRODUCT (id_product, product, creation_date, price) values (3, 'Bread - 10 Grain Parisian', '2023-03-12', 7261.4);
+insert into PRODUCT (id_product, product, creation_date, price) values (4, 'Sobe - Berry Energy', '2022-07-08', 5881.39);
+insert into PRODUCT (id_product, product, creation_date, price) values (5, 'Icecream Bar - Del Monte', '2023-01-05', 2809.26);
+insert into PRODUCT (id_product, product, creation_date, price) values (6, 'Extract - Almond', '2023-03-21', 2091.64);
+insert into PRODUCT (id_product, product, creation_date, price) values (7, 'White Baguette', '2023-05-05', 2774.2);
+insert into PRODUCT (id_product, product, creation_date, price) values (8, 'Beef - Flank Steak', '2023-04-14', 3541.93);
+insert into PRODUCT (id_product, product, creation_date, price) values (9, 'Wine - Guy Sage Touraine', '2023-05-25', 9520.93);
+insert into PRODUCT (id_product, product, creation_date, price) values (10, 'Bread - Multigrain, Loaf', '2023-04-18', 6991.05);
+insert into PRODUCT (id_product, product, creation_date, price) values (11, 'Spinach - Frozen', '2022-10-30', 1701.38);
+insert into PRODUCT (id_product, product, creation_date, price) values (12, 'Bar Energy Chocchip', '2022-08-15', 3172.21);
+insert into PRODUCT (id_product, product, creation_date, price) values (13, 'Paper - Brown Paper Mini Cups', '2022-07-15', 5720.05);
+insert into PRODUCT (id_product, product, creation_date, price) values (14, 'Laundry - Bag Cloth', '2022-08-24', 8318.75);
+insert into PRODUCT (id_product, product, creation_date, price) values (15, 'Strawberries - California', '2023-03-25', 4645.62);
+insert into PRODUCT (id_product, product, creation_date, price) values (16, 'Pear - Asian', '2022-07-23', 4669.74);
+insert into PRODUCT (id_product, product, creation_date, price) values (17, 'Apples - Sliced / Wedge', '2022-07-20', 4517.92);
+insert into PRODUCT (id_product, product, creation_date, price) values (18, 'Tomato - Green', '2022-07-27', 4380.2);
+insert into PRODUCT (id_product, product, creation_date, price) values (19, 'Beets', '2023-03-21', 5664.75);
+insert into PRODUCT (id_product, product, creation_date, price) values (20, 'Lamb - Pieces, Diced', '2023-05-24', 5500.24);
+
+insert into CATEGORY (id_category, category, status) values (1, 'Avatar', false);
+insert into CATEGORY (id_category, category, status) values (2, 'Going to Pieces: The Rise and Fall of the Slasher Film', false);
+insert into CATEGORY (id_category, category, status) values (3, 'Once Upon a Time in the Midlands', true);
+insert into CATEGORY (id_category, category, status) values (4, 'Two Tars', true);
+insert into CATEGORY (id_category, category, status) values (5, 'Choose Me', false);
+insert into CATEGORY (id_category, category, status) values (6, 'Mr. Nobody', true);
+insert into CATEGORY (id_category, category, status) values (7, 'Perifery (Härmä)', true);
+insert into CATEGORY (id_category, category, status) values (8, 'What Goes Up', false);
+insert into CATEGORY (id_category, category, status) values (9, 'Winnetou: The Red Gentleman', false);
+insert into CATEGORY (id_category, category, status) values (10, 'Syndromes and a Century (Sang sattawat)', false);
+
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (1, 1, 9, '2023-03-10');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (2, 2, 4, '2023-05-04');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (3, 3, 4, '2023-06-27');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (4, 4, 6, '2023-06-09');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (5, 5, 1, '2022-10-01');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (6, 6, 10, '2023-05-04');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (7, 7, 6, '2022-12-19');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (8, 8, 6, '2022-10-15');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (9, 9, 7, '2023-01-03');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (10, 10, 9, '2023-01-02');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (11, 11, 10, '2022-11-03');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (12, 12, 6, '2023-04-29');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (13, 13, 3, '2022-09-25');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (14, 14, 8, '2023-06-08');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (15, 15, 8, '2023-03-31');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (16, 16, 9, '2022-07-11');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (17, 17, 5, '2023-06-06');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (18, 18, 7, '2023-04-14');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (19, 19, 3, '2022-12-12');
+insert into CATEGORY_PRODUCT (id_category_product, id_product, id_category, creation_time) values (20, 20, 5, '2023-04-25');
+
